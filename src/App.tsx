@@ -1,10 +1,10 @@
-//import logo from './logo.svg';
-//import './App.css';
-import { NavBasicExample as Nav } from './Nav';
+// import logo from './logo.svg';
+// import './App.css';
+import Nav from './Nav';
 
 function App() {
   return (
-    <Nav> </Nav>
+    <Nav />
   );
 }
 

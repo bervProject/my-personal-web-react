@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { Nav, INavLink, INavStyles, INavLinkGroup } from '@fluentui/react';
+import {
+  Nav, INavLink, INavStyles, INavLinkGroup,
+} from '@fluentui/react';
 
 const navStyles: Partial<INavStyles> = {
   root: {
@@ -72,20 +74,21 @@ const navLinkGroups: INavLinkGroup[] = [
   },
 ];
 
-export const NavBasicExample: React.FunctionComponent = () => {
+function onLinkClick(ev?: React.MouseEvent<HTMLElement>, item?: INavLink) {
+  if (item && item.name === 'News') {
+    alert('News link clicked');
+  }
+}
+
+function NavBasicExample() {
   return (
     <Nav
-      onLinkClick={_onLinkClick}
+      onLinkClick={onLinkClick}
       selectedKey="key3"
       ariaLabel="Nav basic example"
       styles={navStyles}
       groups={navLinkGroups}
     />
   );
-};
-
-function _onLinkClick(ev?: React.MouseEvent<HTMLElement>, item?: INavLink) {
-  if (item && item.name === 'News') {
-    alert('News link clicked');
-  }
 }
+export default NavBasicExample;
