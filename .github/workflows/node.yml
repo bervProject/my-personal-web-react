@@ -25,6 +25,8 @@ jobs:
       run: yarn lint
     - name: Build
       run: yarn build
+      env: 
+        CI: false
     - name: Test
       run: yarn test
     #- name: Upload Codecov
