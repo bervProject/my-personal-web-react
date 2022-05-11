@@ -52,7 +52,7 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
     "postcss": "^8.4.13",
-    "webpack": "^5.72.0"
+    "webpack": "^5.72.1"
   },
   "resolutions": {
     "mini-css-extract-plugin": "2.4.5"
