@@ -1231,10 +1231,10 @@
     "@fluentui/set-version" "^8.2.1"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.72.3":
-  version "8.72.3"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.72.3.tgz#e690dbcadabb8b1c84bbef4b811006bbcac4cfb0"
-  integrity sha512-4hmw6QlXJyjb63EZ7DS8v/DlIuFj7SulnW76CrooLpn0DPXS4eko4nJRdZ8RdQDpz5Iel+SvB4uc0uFZen2gmA==
+"@fluentui/react@^8.73.0":
+  version "8.73.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.73.0.tgz#f531bc792d6a2abfd27cec42b51be1601fca732c"
+  integrity sha512-uecXu17rAwqZ8dMbWI351gYecj9wA0DegHsHts7ZhUfcein5SjNDztuGrp/C+2FJoA8KicVumXLVVAvWho6TVQ==
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.1"
     "@fluentui/font-icons-mdl2" "^8.4.1"
