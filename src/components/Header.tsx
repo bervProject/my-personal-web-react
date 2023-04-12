@@ -56,7 +56,9 @@ function Header() {
         <ToggleButtonGroup
           value={colorMode}
           isExclusive
-          onChange={(value: ColorMode) => setColorMode(value)}
+          onChange={
+            (value: string | (string | undefined)[] | undefined) => setColorMode(value as ColorMode)
+          }
         >
           <ToggleButton value="light">Light</ToggleButton>
           <ToggleButton value="dark">Dark</ToggleButton>
