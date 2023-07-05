@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.22.5",
+    "@babel/core": "^7.22.6",
     "@babel/plugin-syntax-flow": "^7.22.5",
     "@babel/plugin-transform-react-jsx": "^7.22.5",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
