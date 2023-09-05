@@ -45,7 +45,7 @@
     "@babel/core": "^7.22.15",
     "@babel/plugin-syntax-flow": "^7.22.5",
     "@babel/plugin-transform-react-jsx": "^7.22.5",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.5.0",
     "autoprefixer": "^10.4.15",
     "eslint": "^8.48.0",
