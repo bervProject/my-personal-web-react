@@ -8,7 +8,6 @@ const themeSlice = createSlice({
   },
   reducers: {
     changeTheme: (state, { payload }: { payload: ColorMode }) => {
-      /* eslint-disable-next-line no-param-reassign */
       state.theme = payload;
     },
   },
