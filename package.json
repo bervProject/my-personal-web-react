@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^6.13.0",
-    "@reduxjs/toolkit": "^2.9.1",
+    "@reduxjs/toolkit": "^2.9.2",
     "aws-amplify": "^6.15.7",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
