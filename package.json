@@ -56,7 +56,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "globals": "^17.4.0",
     "postcss": "^8.5.9",
-    "typescript-eslint": "^8.58.0",
+    "typescript-eslint": "^8.58.1",
     "webpack": "^5.105.4"
   },
   "resolutions": {
