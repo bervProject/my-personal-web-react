@@ -57,7 +57,7 @@
     "globals": "^17.6.0",
     "postcss": "^8.5.15",
     "typescript-eslint": "^8.59.4",
-    "webpack": "^5.107.0"
+    "webpack": "^5.107.1"
   },
   "resolutions": {
     "mini-css-extract-plugin": "2.4.5"
