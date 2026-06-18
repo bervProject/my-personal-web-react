@@ -915,10 +915,10 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz#c0a0766f1a13617d8a17407d7ab8f9d486225ea4"
   integrity sha512-G7sHYigPY17oO5SYWnfD/0MTBwVR781S/JI643e/JhUYgVgWE/61SoW3NH9KWUKyKq5LVh3npif99Wkt6j86Jw==
 
-"@babel/helper-plugin-utils@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-8.0.0.tgz#de5a80d4ee11fea084d6b50c5d084a145f6196e8"
-  integrity sha512-s6IyoAZ0BtRfYgw9SpSXG1SNmkVbFrPQIt0Q5vAmBSyEkX3SwHqvstPY+GZ4xuxYf8V+9+dbRCUEmtDcjRnWlw==
+"@babel/helper-plugin-utils@^8.0.0", "@babel/helper-plugin-utils@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-8.0.1.tgz#d1c9d8ae225902c597deac8c79ace4227feac8af"
+  integrity sha512-3PKFgjTyPlhFhorfP+SjKQxLViIL++zWjFOO4hGriYU+Bsm983DxEM1JmDRJVWXV0O9npu+xXRqz7Pbd3mh70g==
 
 "@babel/helper-remap-async-to-generator@^7.27.1":
   version "7.27.1"
@@ -1213,12 +1213,12 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.29.7"
 
-"@babel/plugin-syntax-jsx@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-8.0.0.tgz#a9814d5fd29b22cd96f9f2262082a9d553cb84b8"
-  integrity sha512-feeoayPfDYe7B2otR6JJYNu+a2nDR3gGK4BLeSN8WPofW5MGIVtppOc1Y+Nr37jJtupZSS2c5H/d78A8kbjnhA==
+"@babel/plugin-syntax-jsx@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-8.0.1.tgz#ab457699bd42e3071541fdc2dbade25049f2cc2f"
+  integrity sha512-n0jtCOxEovhU7METqSQjcZO9pX53nu9uNIjMS+hEt+Nt9jA7oOZoBIgbCxhhASmF6T6rPDGge5UAvh6Z4eFz/g==
   dependencies:
-    "@babel/helper-plugin-utils" "^8.0.0"
+    "@babel/helper-plugin-utils" "^8.0.1"
 
 "@babel/plugin-syntax-logical-assignment-operators@^7.10.4":
   version "7.10.4"
@@ -1639,15 +1639,15 @@
     "@babel/plugin-syntax-jsx" "^7.29.7"
     "@babel/types" "^7.29.7"
 
-"@babel/plugin-transform-react-jsx@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-8.0.0.tgz#7d97a76017c4a3ea45d0c1d2fb97fe8081592d19"
-  integrity sha512-SXWmkotVC8p7KROraEfl+LIg3ahtRBDamulTNXt9gmNKOs8DpKWxF/puQ9BAfRbg33mV5Ch5Wys104JhpT5Xtg==
+"@babel/plugin-transform-react-jsx@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-8.0.1.tgz#0b7192bd35e5ca68d1324cd9347f5990f296177f"
+  integrity sha512-NgkoF7Uq+30TmOPDdNUimT0Nta02uVjqJRFNlVWKrbOCu/CkzfHa4aMnIs0lMpkMmZmWA1e42Va+F04i/pY1zw==
   dependencies:
     "@babel/helper-annotate-as-pure" "^8.0.0"
     "@babel/helper-module-imports" "^8.0.0"
-    "@babel/helper-plugin-utils" "^8.0.0"
-    "@babel/plugin-syntax-jsx" "^8.0.0"
+    "@babel/helper-plugin-utils" "^8.0.1"
+    "@babel/plugin-syntax-jsx" "^8.0.1"
     "@babel/types" "^8.0.0"
 
 "@babel/plugin-transform-react-pure-annotations@^7.27.1":
